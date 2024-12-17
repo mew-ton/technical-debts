@@ -1,0 +1,10 @@
+---
+pre-commit:
+  commands:
+    biome:
+      glob: "*.{js,ts,d.ts,cjs,mjs,d.cts,d.mts,jsx,tsx,vue,json,jsonc}"
+      stage_fixed: true
+      run: yarn biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+      skip:
+        - merge
+        - rebase
