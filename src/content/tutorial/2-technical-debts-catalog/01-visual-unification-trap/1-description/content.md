@@ -1,7 +1,8 @@
 ---
 type: lesson
 title: ""
-template: welcome
+template: nuxt
+# template: vue--01-visual-unification-trap
 ---
 
 ## 見た目の共通化

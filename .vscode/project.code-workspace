@@ -5,7 +5,13 @@
     }
   ],
   "extensions": {
-    "recommendations": ["astro-build.astro-vscode", "StackBlitz.tutorialkit", "unifiedjs.vscode-mdx"],
+    "recommendations": [
+      "astro-build.astro-vscode",
+      "StackBlitz.tutorialkit",
+      "unifiedjs.vscode-mdx",
+      "vue.volar",
+      "biomejs.biome"
+    ],
     "unwantedRecommendations": []
   },
   "settings": {
@@ -30,7 +36,9 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
 
-    "biome.lspBin": "./node_modules/.bin/biome"
+    "biome.lspBin": "./node_modules/.bin/biome",
+
+    "vue.server.hybridMode": true
   },
   "launch": {
     "version": "0.2.0",
